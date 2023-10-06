@@ -22,6 +22,8 @@ mongoose
     console.log("DB connected successfully...💹");
   });
 
+  console.log("aaaaa")
+
 app.use(cors());
 app.use(express.json());
 app.use(bodyParser.json());
